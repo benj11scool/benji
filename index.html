@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Portfolio</title>
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <ul>
+                <li><a href="#introduction">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <button id="theme-toggle">Toggle Dark/Light</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="introduction" class="fade-in">
+        <img src="imgs/Benjamin_lloyd.jpg" alt="Your photo">
+        <div>
+            <h1>Hi, I'm Benjamin Lloyd</h1>
+            <p>I love playing video games and watching YouTube. Here are my top 5 Gallup strengths: Adaptability, Connectedness, Intellect, Input, and Maximizer.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Video Game (Lost on Itch.io)</h3>
+            <p>A game I made for my highschool videogame design class. It consisted of just three levels. You a cube would shoot a lazer and try to angle your shot to hit a cube.</p>
+        </div>
+        <div class="project-card">
+            <h3>RGB Python Library</h3>
+            <p>I made a python RGB library last week!</p>
+        </div>
+        <div class="project-card">
+            <h3>Joke Machine</h3>
+            <p>A machine that laughs and taunts you until you put a coin in, then tells you a joke.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="fade-in">
+        <h2>Skills</h2>
+        <div class="skill">
+            <span>HTML</span>
+            <div class="progress-bar" style="width: 75%;"></div>
+        </div>
+        <div class="skill">
+            <span>CSS</span>
+            <div class="progress-bar" style="width: 58%;"></div>
+        </div>
+        <div class="skill">
+            <span>JavaScript</span>
+            <div class="progress-bar" style="width: 58%;"></div>
+        </div>
+        <div class="skill">
+            <span>Python</span>
+            <div class="progress-bar" style="width: 92%;"></div>
+        </div>
+        <div class="skill">
+            <span>PHP</span>
+            <div class="progress-bar" style="width: 58%;"></div>
+        </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <h2>Contact</h2>
+        <p>Name: Benjamin Lloyd</p>
+        <p>Email: benjamin.lloyd@uau.edu</p>
+    </section>
+    
+
+    <script src="scripts.js"></script>
+</body>
+</html>
