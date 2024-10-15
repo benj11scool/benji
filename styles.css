@@ -1,4 +1,3 @@
-/* styles.css */
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
     background-color: #121212;
@@ -22,6 +21,7 @@ nav a {
     color: #ffffff;
     text-decoration: none;
 }
+
 
 section {
     padding: 50px;
@@ -67,4 +67,19 @@ img {
 
 .light-mode .progress-bar {
     background-color: #00796b;
+}
+
+/* Colored Text */
+
+blue {
+    color: dodgerblue;
+}
+
+
+green {
+    color: green;
+}
+
+orange{
+    color: orange;
 }
